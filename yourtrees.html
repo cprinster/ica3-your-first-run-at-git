@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Christopher Prinster 9/21/24 -->
+  <!-- [Q2. Change the html title to the topic of your choice] -->
+  <title>Tree Website</title>
+</head>
+<body>
+  <!-- [Q3. Create a navigation bar that links to two other pages] -->
+  <div class="navbar">
+    <ul>
+      <a href="index.html"><li>Home</li></a>
+      <a href="talltrees.html"><li>Tall Trees</li></a>
+      <a href="shorttrees.html"><li>Short Trees</li></a>
+      <a href=""><li>Your Trees</li></a>
+    </ul>
+  </div>
+  <p>Please Tell us about your Tree</p>
+
+    <form action="/yourtrees.html">
+        <label for="treename"><b>Your Tree's First Name</b></label><br>
+        <input type="text" id="treename" name="treename"><br>
+
+        <p><b>Tree Size</b></p>
+        <input type="radio" id="short" name="treesize" value="short">
+        <label for="short">Short</label><br>
+        <input type="radio" id="tall" name="treesize" value="tall">
+        <label for="tall">Tall</label><br>
+
+        <p><b>Tree personality</b></p>
+        <input type="checkbox" id="nice" name="personality" value="nice">
+        <label for="nice">Nice</label><br>
+        <input type="checkbox" id="Fussy" name="personality" value="Fussy">
+        <label for="Fussy">Fussy</label><br>
+        <input type="checkbox" id="ambitious" name="personality" value="ambitious">
+        <label for="ambitious">ambitious</label><br>
+        <input type="checkbox" id="confident" name="personality" value="confident">
+        <label for="confident">confident</label><br>
+        <input type="checkbox" id="humble" name="personality" value="humble">
+        <label for="humble">humble</label><br>
+        <input type="checkbox" id="patient" name="personality" value="patient">
+        <label for="patient">patient</label><br>
+        <input type="checkbox" id="loyal" name="personality" value="loyal">
+        <label for="loyal">loyal</label><br>
+        <input type="checkbox" id="honest" name="personality" value="honest">
+        <label for="honest">honest</label><br>
+        
+        <p><b>Please write a short poem about your tree</b></p>
+        <textarea name="poem" rows="10" cols="30">
+            example: My tree is green and has no spleen.....
+            </textarea>
+        
+        <input type="submit" value="submit">
+    </form>
+  
+
+  <!-- [Q4. Stage and commit your changes up to this point, with an appropriate commit message about the navbar and title. Don't forget to push to GitHub!] -->
+  <!-- [Q5-Q10. Follow the instructions in the README.md file to complete them] -->
+
+</body>
+</html>
